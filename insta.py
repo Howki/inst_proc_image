@@ -35,7 +35,7 @@ def main():
             print("ERROR 50: Parameter input error ")
             return 50
         if args == 60:
-            #print("ERROR 60: Parameter output error ")
+            print("ERROR 60: Parameter output error ")
         else:
             img = str(args['load'])
 
