@@ -1,5 +1,4 @@
-# python insta.py -l load_path -s store_path
-
+#!/usr/bin/python
 import cv2
 import argparse
 import numpy as np

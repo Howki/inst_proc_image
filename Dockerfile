@@ -65,3 +65,10 @@ RUN mkdir /opt && cd /opt && \
           /usr/lib/python3.6/site-packages/cv2.so && \
     apk del build-dependencies && \
     rm -rf /var/cache/apk/*
+
+RUN mkdir /usr/inst_script
+    cd /usr/inst_script
+    git pull https://github.com/Howki/inst_proc_image master
+    chmod +x insta.py
+    ln -s insta.py /usr/bin/insta
+    cd /
